@@ -44,5 +44,5 @@ while (keepRunning):
     if msg[0] == "PING": #check if server have sent ping command
         send_data("PONG %s" % msg[1]) #answer with pong as per RFC 1459
     if msg [1] == 'JOIN':
-        send_data("PRIVMSG " + CHANNEL + " " + MESSAGE)
+        send_data("PRIVMSG " + CHANNEL + " : " + MESSAGE )
         keepRunning = False
