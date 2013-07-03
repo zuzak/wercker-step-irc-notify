@@ -6,7 +6,7 @@ if len(sys.argv) < 6 :
   sys.exit(1)
 
 SERVER = str(sys.argv[1])
-PORT = str(sys.argv[2])
+PORT = int(sys.argv[2])
 NICKNAME  = str(sys.argv[3])
 CHANNEL  = str(sys.argv[4])
 MESSAGE  = str(sys.argv[5])
