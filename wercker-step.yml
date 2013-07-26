@@ -14,6 +14,10 @@ properties:
   channel:
     type: string
     required: true
-  message:
+  failed-message:
     type: string
-    required: true
+  passed-message:
+    type: string
+  on:
+    type: string
+    default: always
