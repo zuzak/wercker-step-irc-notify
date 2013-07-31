@@ -19,12 +19,12 @@ Send a message to an IRC channel
 
 ## Example
 
-```
-build:
-    after-steps:
-     - wouter/irc-notify:
-        server: irc.freenode.net
-        port: 6667
-        nickname: nick
-        channel: chan
-```
+
+    build:
+        after-steps:
+         - wouter/irc-notify:
+            server: irc.freenode.net
+            port: 6667
+            nickname: nick
+            channel: chan
+
