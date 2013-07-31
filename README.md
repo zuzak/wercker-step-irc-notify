@@ -1,18 +1,30 @@
-irc-notify
-===========================
+# irc-notify
 
 Send a message to an IRC channel
 
+## Options
 
-Example
---------
+### required
+
+* `server` - The hostname or ip address of the IRC server.
+* `port` - The port of the IRC server.
+* `nickname` - The nickname of the user that sends the message.
+* `channel` - The channel that the message will be send to.
+
+### optional
+
+* `passed-message` - Use this option to override the default passed message.
+* `failed-message` -  Use this option to override the default failed message.
+* `on` - Possible values: `always` and `failed`, default `always`
+
+## Example
 
 ```
-    - wouter/irc-notify:
+build:
+    after-steps:
+     - wouter/irc-notify:
         server: irc.freenode.net
         port: 6667
-        message: $WERCKER_APPLICATION_OWNER_NAME/$WERCKER_APPLICATION_NAME build by $WERCKER_STARTED_BY finished
         nickname: nick
         channel: chan
-
 ```
