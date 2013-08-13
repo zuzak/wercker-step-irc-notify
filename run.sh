@@ -1,4 +1,3 @@
-
 if [ ! -n "$WERCKER_IRC_NOTIFY_SERVER" ]; then
   error 'Please specify server property'
   exit 1
@@ -16,10 +15,6 @@ fi
 
 if [ ! -n "$WERCKER_IRC_NOTIFY_CHANNEL" ]; then
   error 'Please specify channel property'
-  exit 1
-fi
-if [ ! -n "$WERCKER_IRC_NOTIFY_MESSAGE" ]; then
-  error 'Please specify message property'
   exit 1
 fi
 
