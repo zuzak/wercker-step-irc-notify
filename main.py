@@ -10,7 +10,7 @@ PORT = int(sys.argv[2])
 NICKNAME  = str(sys.argv[3])
 CHANNEL  = str(sys.argv[4])
 MESSAGE  = str(sys.argv[5])
-
+CHANNEL = "#" + CHANNEL
 
 #open a socket to handle the connection
 IRC = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
