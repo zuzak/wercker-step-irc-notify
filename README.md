@@ -9,7 +9,7 @@ Send a message to an IRC channel
 * `server` - The hostname or ip address of the IRC server.
 * `port` - The port of the IRC server.
 * `nickname` - The nickname of the user that sends the message.
-* `channel` - The channel that the message will be send to. **Must include '#' sign.**
+* `channel` - The channel that the message will be send to. Do not include '#' sign.
 
 ### optional
 
@@ -26,5 +26,5 @@ Send a message to an IRC channel
             server: irc.freenode.net
             port: 6667
             nickname: yournickname
-            channel: #yourchannel
+            channel: yourchannel
 
