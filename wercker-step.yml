@@ -24,3 +24,6 @@ properties:
   on:
     type: string
     default: always
+  nojoin:
+    type: boolean
+    default: false

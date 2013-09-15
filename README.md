@@ -16,6 +16,8 @@ Send a message to an IRC channel
 * `passed-message` - Use this option to override the default passed message.
 * `failed-message` -  Use this option to override the default failed message.
 * `on` - Possible values: `always` and `failed`, default `always`
+* `nojoin` - Set this option to true to prevent the bot joining the channel.
+  `-n` often needs to be set in the channel for this to work.
 
 ## Example
 
