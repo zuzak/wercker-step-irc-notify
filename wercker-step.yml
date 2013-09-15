@@ -1,5 +1,5 @@
-name: irc-notify
-version: 0.0.10
+name: irc-notify-zuzak
+version: 0.0.11
 description: Send a message to an IRC channel
 keywords:
   - notification
