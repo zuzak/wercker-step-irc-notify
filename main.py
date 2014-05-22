@@ -36,7 +36,7 @@ def login(nickname, username='user', password = None, realname='Pythonist', host
 irc_conn()
 login(NICKNAME)
 
-if NOJOIN == false :
+if NOJOIN == False :
     join(CHANNEL)
 
 keepRunning = True
