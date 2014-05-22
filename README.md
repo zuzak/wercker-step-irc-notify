@@ -1,6 +1,7 @@
 # irc-notify
 
 Send a message to an IRC channel
+[![wercker status](https://app.wercker.com/status/5c75d503aaeeb2904559b756dae44eb3/ "wercker status")](https://app.wercker.com/project/bykey/5c75d503aaeeb2904559b756dae44eb3)
 
 ## Options
 
@@ -24,7 +25,7 @@ Send a message to an IRC channel
 
     build:
         after-steps:
-         - wouter/irc-notify:
+         - zuzak/wercker-step-irc-notify:
             server: irc.freenode.net
             port: 6667
             nickname: yournickname
